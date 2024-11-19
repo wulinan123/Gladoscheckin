@@ -8,7 +8,7 @@ on:
       - 'README.md'
       - 'imgs/'
   schedule:
-    - cron: '1/28800 * * * * ? '
+    - cron: '0/60 * * * *'
   watch:
     types: started
 
